@@ -33,7 +33,7 @@ export default function LoginPage() {
   const { error } = await supabase.auth.signInWithOAuth({
     provider: "google",
     options: {
-      redirectTo: "redirectTo: `${window.loacation.origin}/dashboard`,",
+      redirectTo: "https://smartgardening-jkv8.vercel.app/dashboard",
     },
   });
 
