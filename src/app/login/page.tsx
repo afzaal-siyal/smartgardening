@@ -33,7 +33,7 @@ export default function LoginPage() {
   const { error } = await supabase.auth.signInWithOAuth({
     provider: "google",
     options: {
-      redirectTo: "http://localhost:3000/dashboard",
+      redirectTo: "redirectTo: `${window.location.origin}/dashboard`,",
     },
   });
 
