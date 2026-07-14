@@ -10,7 +10,7 @@ export default function ContactPage() {
       </p>
 
       <p className="mt-4 text-lg font-medium">
-        support@smartgardening.com
+        mafzaalsial@gmail.com
       </p>
     </main>
   );
